@@ -1,0 +1,113 @@
+*{
+  margin: 0 0 0 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+}
+body{
+  background: #42445A;
+  font-size: 16px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+.logo{
+  border: 1px solid #fff;
+  border-radius: 97px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 6px;
+  font-size: 8px;
+}
+header .btn{
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.menu-btn .material-symbols-outlined {
+  font-size: 37px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40
+}
+
+::placeholder{
+  color: #9a9a9a;
+}
+
+main .container figure img{
+  height: 200px;
+  display: block;
+  
+}
+
+main{
+  padding: 30px;
+  color: white;
+  background: #000;
+  height: 100vh;
+}
+main figure h1{
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+main figure p{
+  color: #9a9a9a;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.input-group{
+  display: flex;
+  
+}
+.input-group input{
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.input-group .signup-btn, .trail-btn{
+  background: mediumpurple;
+  padding: 10px 8px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.trail-btn{
+  background: none;
+  &:hover{
+    transition: .3s;
+  border: 3px solid #fff;
+}
+}
+
+.line{
+  border-top: 1px solid rgba(74, 78, 127, 1);
+}
+
+@media (max-width: 700px) {
+  .input-group{
+    flex-flow: column;
+  }
+}
