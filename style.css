@@ -76,7 +76,7 @@ main figure p{
 
 .input-group{
   display: flex;
-  
+  gap: 7px;
 }
 .input-group input{
   padding: 10px 8px;
@@ -93,6 +93,14 @@ main figure p{
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trail-btn{
+  border: 3px solid #000;
+
 }
 .trail-btn{
   background: none;
